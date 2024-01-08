@@ -1,0 +1,378 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&family=Merriweather:wght@400;700;900&display=swap');
+
+/* 
+font-family: 'Inter', sans-serif;
+font-family: 'Merriweather', serif;
+*/
+
+
+/*common part css start*/
+.common-heading {
+    color: #070211;
+    font-family: 'Merriweather', serif;
+    font-size: 48px;
+    font-weight: 700;
+    padding: 0;
+    margin: 0;
+}
+
+.common-paragraph {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    padding: 0;
+    margin: 0;
+}
+
+/*common part css end*/
+
+/*Header part css start*/
+header {
+    padding: 0;
+    padding: 15px 100px 30px;
+}
+
+#banner {
+    background: url(../images/Banner-Image.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 0;
+}
+
+.banner-overlay {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.3));
+    display: flex;
+    justify-content: center;
+}
+
+.banner-content {
+    max-width: 700px;
+}
+
+.banner-content p {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 32px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+
+.banner-content h3 {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+    margin-top: 5px;
+    padding: 0;
+}
+
+/*Header part css end*/
+/*main part css start*/
+main {
+    padding: 15px 100px;
+}
+
+/*catagories part css start*/
+.catagories {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.catagories h2 {
+    color: #F00;
+    font-family: 'Inter', sans-serif;
+    font-size: 88px;
+    font-weight: 700;
+    padding-left: 0;
+    margin: 0;
+
+}
+
+.catagories p {
+    color: #F00;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    padding-left: 0;
+    margin: 0;
+}
+
+.catagories h3 {
+    padding: 0;
+    margin: 0;
+}
+
+.catagories h3 a {
+    text-decoration: none;
+    color: #070211;
+}
+
+.catagories img {
+    width: 802.9px;
+    height: 500px;
+    margin: 30px 0;
+}
+
+/*catagories part css end*/
+/*Welcome part css start*/
+#welcome {
+    background: url(../images/Vectorrr.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 0;
+    border-radius: 15px;
+}
+
+.welcome-overlay {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+    border-radius: 15px;
+}
+
+.welcome-content {
+    display: flex;
+    padding: 50px 80px;
+    justify-content: space-between;
+}
+
+.welcome-information {
+    padding: 0;
+    margin: 0;
+}
+
+.welcome-picture img {
+    height: 364;
+    width: 320;
+    padding: 0;
+    margin: 0;
+}
+
+.welcome-information h2 {
+    color: #FFF;
+    font-family: 'Merriweather', serif;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+    padding: 0;
+    margin: 0;
+}
+
+.welcome-information p {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 0;
+    margin: 30px 0 72px 0;
+}
+
+.welcome-information a {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 4px 5px;
+    border-radius: 5px;
+    margin: 0;
+    text-decoration: none;
+    border: 1px solid white;
+}
+
+/*Welcome part css end*/
+/*Join now part css start*/
+.join-now {
+    padding: 70px 0;
+    margin: 50px 0px;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    ;
+}
+
+.join-now-items {
+    text-align: center;
+}
+
+.join-now-items-description {
+    margin-bottom: 60px;
+}
+
+.join-now-items-description p {
+    color: #070211;
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+    padding: 0px;
+    margin: 0px;
+}
+
+.join-now-items-description span {
+    color: #F00;
+}
+
+.join-now-items a {
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 8px 15px;
+    background-color: #F00;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+/*Join now part css end*/
+/*Portfolio part css start*/
+.portfolio {
+    padding: 0;
+    margin: 0;
+}
+
+.portfolio-info {
+    max-width: 900px;
+}
+
+.portfolio-info h4 {
+    color: #F00;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    padding: 0;
+    margin: 0;
+
+}
+
+.portfolio-info h2 {
+    margin: 10px 0;
+}
+
+.portfolio-first-row-img {
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0;
+}
+
+.portfolio-second-row-img {
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+/*Portfolio part css end*/
+/*subscribe part css start*/
+.subscribe {
+    margin: 50px 0;
+    padding: 80px 150px;
+    text-align: center;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+}
+
+.subscribe-info h2 {
+    margin: 15px 0;
+}
+
+.subscribe-input {
+    margin: 30px 0;
+}
+
+.subscribe-input input {
+    padding: 15px 200px 15px 25px;
+    border: none;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    margin-right: 0;
+}
+
+.subscribe-input a {
+    text-decoration: none;
+    padding: 13px 25px 15px;
+    background-color: #F00;
+    color: white;
+    margin-left: 0;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border: none;
+}
+
+/*subscribe part css end*/
+/*main part css end*/
+/*footer part css start*/
+footer {
+    background: #070211;
+    padding: 40px 100px;
+
+}
+
+.footer-description-area {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.footer-description-area p {
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.contact {
+    display: flex;
+}
+
+.contact img {
+    height: 35px;
+    width: 35px;
+    padding: 0;
+    margin: 0 5px 0 0;
+}
+
+.contact p {
+    padding: 0;
+    margin: 0;
+}
+
+.footer-icon-area {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-icon-area img {
+    height: 50px;
+    width: 50px;
+    padding: 30px 8px;
+}
+.line {
+    border: 5px solid gray;
+    width: 100%;
+}
+
+.copyright-area {
+    display: flex;
+    justify-content: space-between;
+}
+
+.copyright-area p {
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+/*footer part css end*/
