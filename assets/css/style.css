@@ -7,6 +7,9 @@ font-family: 'Merriweather', serif;
 
 
 /*common part css start*/
+body {
+    max-width: 1920px;
+}
 .common-heading {
     color: #070211;
     font-family: 'Merriweather', serif;
@@ -50,6 +53,7 @@ header {
 
 .banner-content {
     max-width: 700px;
+    padding: 150px 0;
 }
 
 .banner-content p {
@@ -234,6 +238,131 @@ main {
 }
 
 /*Join now part css end*/
+/*Best Offer part css start*/
+.offer {
+    display: flex;
+    justify-content: baseline;
+    margin: 60px 0;
+}
+
+.offer-left-part {
+    width: 30%;
+}
+
+.offer-left-part h4 {
+    color: #F00;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    padding: 0;
+    margin: 0;
+}
+
+.offer-left-part h3 {
+    margin: 20px 0;
+}
+
+.offer-part-image {
+    width: 40%;
+    margin: 0 40px 40px 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.offer-part-image img {
+    border: 10px solid red;
+    border-radius: 50%;
+    padding: 20px;
+    height: 300px;
+    width: 300px;
+}
+
+.offer-right-part {
+    width: 30%;
+}
+
+.offer-right-part h3 {
+    color: #F00;
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    padding: 0;
+    margin: 0;
+}
+
+.offer-right-part p {
+    margin: 20px 0;
+}
+
+/*Best Offer part css end*/
+/*Discount part css start*/
+.discount {
+    margin: 100px 0;
+}
+.discount-area {
+    display: flex;
+    justify-content: center;
+}
+
+.discount-info {
+    text-align: center;
+    max-width: 900px;
+}
+
+.discount-banner {
+    height: 700px;
+    text-align: right;
+    position: relative;
+}
+.discount-banner img {
+    padding: 0;
+    margin: 0;
+}
+
+.discount-info h4 {
+    color: #070211;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    padding: 0;
+    margin: 0;
+}
+
+.discount-banner-girl {
+    position: absolute;
+    right: 0;
+    bottom: 220px;
+}
+
+.rectangle {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.gift-box {
+    position: absolute;
+    bottom: 350px;
+    right: 325px;
+    z-index: 2;
+    height: 200px;
+    width: 200px;
+}
+
+.discount-info h2 {
+    color: #070211;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 72px;
+    font-weight: 900;
+    margin: 15px 0;
+}
+
+.discount-info h2 span {
+    color: #F00;
+}
+
+/*Discount part css end*/
 /*Portfolio part css start*/
 .portfolio {
     padding: 0;
@@ -241,7 +370,10 @@ main {
 }
 
 .portfolio-info {
-    max-width: 900px;
+    max-width: 900;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
 }
 
 .portfolio-info h4 {
@@ -357,10 +489,6 @@ footer {
     height: 50px;
     width: 50px;
     padding: 30px 8px;
-}
-.line {
-    border: 5px solid gray;
-    width: 100%;
 }
 
 .copyright-area {
