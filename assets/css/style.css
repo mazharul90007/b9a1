@@ -10,6 +10,7 @@ font-family: 'Merriweather', serif;
 body {
     max-width: 1920px;
 }
+
 .common-heading {
     color: #070211;
     font-family: 'Merriweather', serif;
@@ -27,6 +28,22 @@ body {
     line-height: 32px;
     padding: 0;
     margin: 0;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+div,
+section,
+img {
+    padding: 0;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    color: white;
 }
 
 /*common part css end*/
@@ -62,8 +79,6 @@ header {
     font-family: 'Merriweather', serif;
     font-size: 32px;
     font-weight: 400;
-    margin: 0;
-    padding: 0;
 }
 
 .banner-content h3 {
@@ -74,7 +89,6 @@ header {
     font-weight: 900;
     line-height: 95px;
     margin-top: 5px;
-    padding: 0;
 }
 
 /*Header part css end*/
@@ -94,9 +108,6 @@ main {
     font-family: 'Inter', sans-serif;
     font-size: 88px;
     font-weight: 700;
-    padding-left: 0;
-    margin: 0;
-
 }
 
 .catagories p {
@@ -104,13 +115,6 @@ main {
     font-family: 'Inter', sans-serif;
     font-size: 24px;
     font-weight: 500;
-    padding-left: 0;
-    margin: 0;
-}
-
-.catagories h3 {
-    padding: 0;
-    margin: 0;
 }
 
 .catagories h3 a {
@@ -146,16 +150,9 @@ main {
     justify-content: space-between;
 }
 
-.welcome-information {
-    padding: 0;
-    margin: 0;
-}
-
 .welcome-picture img {
     height: 364;
     width: 320;
-    padding: 0;
-    margin: 0;
 }
 
 .welcome-information h2 {
@@ -165,8 +162,6 @@ main {
     font-weight: 900;
     line-height: 88px;
     letter-spacing: 7.04px;
-    padding: 0;
-    margin: 0;
 }
 
 .welcome-information p {
@@ -175,7 +170,6 @@ main {
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
-    padding: 0;
     margin: 30px 0 72px 0;
 }
 
@@ -191,6 +185,11 @@ main {
     margin: 0;
     text-decoration: none;
     border: 1px solid white;
+}
+.welcome-information a:hover {
+    background-color: lightgreen;
+    color: #F00;
+    transition: 0.3s;
 }
 
 /*Welcome part css end*/
@@ -217,8 +216,6 @@ main {
     font-weight: 600;
     line-height: 56px;
     text-transform: capitalize;
-    padding: 0px;
-    margin: 0px;
 }
 
 .join-now-items-description span {
@@ -235,6 +232,11 @@ main {
     background-color: #F00;
     text-decoration: none;
     border-radius: 10px;
+}
+.join-now-items a:hover {
+    background-color: lightgreen;
+    color: red;
+    transition: 0.3s;
 }
 
 /*Join now part css end*/
@@ -254,8 +256,6 @@ main {
     font-family: 'Inter', sans-serif;
     font-size: 24px;
     font-weight: 500;
-    padding: 0;
-    margin: 0;
 }
 
 .offer-left-part h3 {
@@ -286,8 +286,6 @@ main {
     font-family: 'Inter', sans-serif;
     font-size: 48px;
     font-weight: 700;
-    padding: 0;
-    margin: 0;
 }
 
 .offer-right-part p {
@@ -299,6 +297,7 @@ main {
 .discount {
     margin: 100px 0;
 }
+
 .discount-area {
     display: flex;
     justify-content: center;
@@ -306,7 +305,7 @@ main {
 
 .discount-info {
     text-align: center;
-    max-width: 900px;
+    max-width: 700px;
 }
 
 .discount-banner {
@@ -314,18 +313,12 @@ main {
     text-align: right;
     position: relative;
 }
-.discount-banner img {
-    padding: 0;
-    margin: 0;
-}
 
 .discount-info h4 {
     color: #070211;
     font-family: 'Inter', sans-serif;
     font-size: 24px;
     font-weight: 500;
-    padding: 0;
-    margin: 0;
 }
 
 .discount-banner-girl {
@@ -341,6 +334,16 @@ main {
 }
 
 .gift-box {
+    position: absolute;
+    left: 120px;
+    bottom: 70px;
+    z-index: 1;
+    height: 500px;
+    width: 570px;
+    fill: radial-gradient(50% 50% at 50% 50%, #194142 0%, #000 100%);
+}
+
+.half-discount {
     position: absolute;
     bottom: 350px;
     right: 325px;
@@ -364,11 +367,6 @@ main {
 
 /*Discount part css end*/
 /*Portfolio part css start*/
-.portfolio {
-    padding: 0;
-    margin: 0;
-}
-
 .portfolio-info {
     max-width: 900;
     font-family: 'Inter', sans-serif;
@@ -381,9 +379,6 @@ main {
     font-family: 'Inter', sans-serif;
     font-size: 24px;
     font-weight: 500;
-    padding: 0;
-    margin: 0;
-
 }
 
 .portfolio-info h2 {
@@ -439,6 +434,10 @@ main {
     border-bottom-right-radius: 25px;
     border: none;
 }
+.subscribe-input a:hover {
+    border: 3px solid purple;
+    padding: 10px 22px 12px;
+}
 
 /*subscribe part css end*/
 /*main part css end*/
@@ -454,7 +453,6 @@ footer {
     justify-content: space-between;
 
 }
-
 
 .footer-description-area p {
     color: #FFF;
@@ -475,11 +473,6 @@ footer {
     margin: 0 5px 0 0;
 }
 
-.contact p {
-    padding: 0;
-    margin: 0;
-}
-
 .footer-icon-area {
     display: flex;
     justify-content: center;
@@ -488,7 +481,15 @@ footer {
 .footer-icon-area img {
     height: 50px;
     width: 50px;
-    padding: 30px 8px;
+    margin: 30px 8px;
+}
+
+.footer-icon-area img:hover {
+    height: 60px;
+    width: 60px;
+    transition: 0.3s;
+    border: 4px solid white;
+    border-radius: 50%;
 }
 
 .copyright-area {
